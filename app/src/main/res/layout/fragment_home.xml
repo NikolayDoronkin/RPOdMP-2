@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.products.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/typeFoodChipGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:chipSpacingHorizontal="8dp"
+                app:singleSelection="true">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/everythingChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:checked="false"
+                    android:text="@string/chip_everything"
+                    android:textColor="@color/textColorOnDark"
+                    android:theme="@style/Theme.MaterialComponents.Light"
+                    app:chipBackgroundColor="@color/chip_colors" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/dryfoodChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:checked="false"
+                    android:text="@string/chip_dryfood"
+                    android:textColor="@color/textColorOnDark"
+                    android:theme="@style/Theme.MaterialComponents.Light"
+                    app:chipBackgroundColor="@color/chip_colors" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/cannedChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:checked="false"
+                    android:text="@string/chip_canned"
+                    android:textColor="@color/textColorOnDark"
+                    android:theme="@style/Theme.MaterialComponents.Light"
+                    app:chipBackgroundColor="@color/chip_colors" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/preservsChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:checked="false"
+                    android:text="@string/chip_preservs"
+                    android:textColor="@color/textColorOnDark"
+                    android:theme="@style/Theme.MaterialComponents.Light"
+                    app:chipBackgroundColor="@color/chip_colors" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/tastyChip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="true"
+                    android:checked="false"
+                    android:text="@string/chip_tasty"
+                    android:textColor="@color/textColorOnDark"
+                    android:theme="@style/Theme.MaterialComponents.Light"
+                    app:chipBackgroundColor="@color/chip_colors" />
+
+            </com.google.android.material.chip.ChipGroup>
+
+        </HorizontalScrollView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/emptyList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/no_results"
+                android:textSize="24sp"
+                android:visibility="gone" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressView"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:indeterminateOnly="true"
+        android:progressDrawable="@drawable/progress_circle" />
+
+</FrameLayout>
+

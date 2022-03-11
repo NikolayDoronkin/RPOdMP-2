@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/drawable/ic_cloud_off_24.xml" value="0.1" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/drawable/ic_image_24.xml" value="0.1" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/drawable/ic_info_24.xml" value="0.1" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/drawable/ic_person_24.xml" value="0.1" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/drawable/ic_star.xml" value="0.1" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/drawable/splash_screen.xml" value="0.1" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/layout/content_main.xml" value="0.2965708989805375" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/layout/fragment_filter_products.xml" value="0.14628623188405798" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/layout/fragment_product.xml" value="0.15830800405268491" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/layout/onliner_view_item.xml" value="0.15830800405268491" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/layout/page_info_layout.xml" value="0.12537993920972645" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/layout/product_view_item.xml" value="0.15830800405268491" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/layout/repo_view_item.xml" value="0.15830800405268491" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Developing/Projects/Android/catfood/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/drawable/ic_filter_24.xml" value="0.1" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1025" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/drawable/ic_image_24.xml" value="0.1065" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/drawable/ic_person_24.xml" value="0.2475" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/drawable/ic_search_24.xml" value="0.232" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/drawable/progress_circle.xml" value="0.1005" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/activity_main.xml" value="0.2667572463768116" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/favorites_view_item.xml" value="0.2509057971014493" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/fragment_browser.xml" value="0.24139492753623187" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/fragment_favorites.xml" value="0.26268115942028986" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/fragment_filter.xml" value="0.24094202898550723" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/fragment_info.xml" value="0.24094202898550723" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/fragment_product.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/fragment_profile.xml" value="0.24094202898550723" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/fragment_search.xml" value="0.22916666666666666" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/ic_logout_24.xml" value="0.2667572463768116" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/onliner_view_item.xml" value="0.2368659420289855" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/page_info_layout.xml" value="0.2617753623188406" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/layout/product_view_item.xml" value="0.2617753623188406" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/menu/home_fragment_options_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android/catfood/app/src/main/res/menu/main_options_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2905" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/drawable/ic_cloud_off_24.xml" value="0.1765" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/drawable/ic_filter_24.xml" value="0.1765" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/drawable/ic_image_24.xml" value="0.1955" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2905" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/drawable/ic_person_24.xml" value="0.2905" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/drawable/ic_search_24.xml" value="0.2905" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/drawable/progress_circle.xml" value="0.2905" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/drawable/splash_screen.xml" value="0.1955" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/layout/activity_sign_in.xml" value="0.17958459979736577" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/layout/content_main.xml" value="0.17958459979736577" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/layout/favorites_view_item.xml" value="0.17958459979736577" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/layout/fragment_browser.xml" value="0.17958459979736577" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/layout/fragment_home.xml" value="0.17958459979736577" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/layout/fragment_info.xml" value="0.17958459979736577" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/layout/fragment_product.xml" value="0.17958459979736577" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/layout/fragment_profile.xml" value="0.17958459979736577" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/layout/fragment_search.xml" value="0.17958459979736577" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/layout/page_info_layout.xml" value="0.17958459979736577" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/layout/product_view_item.xml" value="0.17958459979736577" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1965" />
+        <entry key="..\:/Users/nicol/OneDrive/DSfMP/lab-second/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1965" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

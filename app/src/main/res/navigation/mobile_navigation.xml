@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="app.com.dogfood.ui.products.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_nav_product"
+            app:destination="@id/nav_product" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="app.com.dogfood.ui.products.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_nav_search_to_nav_product"
+            app:destination="@id/nav_product" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_product"
+        android:name="app.com.dogfood.ui.product.ProductFragment"
+        android:label="@string/title_product"
+        tools:layout="@layout/fragment_product">
+        <argument
+            android:name="key"
+            app:argType="string"
+            app:nullable="false" />
+        <action
+            android:id="@+id/action_nav_product_to_nav_browser"
+            app:destination="@id/nav_browser" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="app.com.dogfood.ui.browser.BrowserFragment"
+        android:label="@string/title_browser"
+        tools:layout="@layout/fragment_browser">
+        <argument
+            android:name="link"
+            app:argType="string"
+            app:nullable="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="app.com.dogfood.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_nav_profile_to_nav_favorites"
+            app:destination="@id/nav_favorites" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="app.com.dogfood.ui.favorites.FavoritesFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_nav_favorites_to_nav_product"
+            app:destination="@id/nav_product" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="app.com.dogfood.ui.info.InfoFragment"
+        android:label="@string/title_info"
+        tools:layout="@layout/fragment_info" />
+
+</navigation>

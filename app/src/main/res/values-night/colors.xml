@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- AppTheme colors -->
+    <color name="colorPrimary">@color/md_brown_300</color>
+    <color name="colorPrimaryDark">@color/md_brown_600</color>
+    <color name="colorAccent">@color/ic_launcher_background</color>
+    <color name="colorSecondary">@color/md_brown_500</color>
+    <color name="colorSecondaryDark">@color/md_brown_900</color>
+    <color name="toolbarBackground">@color/md_blue_grey_900</color>
+    <color name="bottomBarBackground">@color/md_blue_grey_900</color>
+    <color name="imageBackground">@color/black</color>
+    <color name="splashScreenBackground">@color/md_orange_100</color>
+
+    <!-- text colors -->
+    <color name="textColorLight">@color/md_blue_grey_100</color>
+    <color name="textColor">@color/md_blue_grey_200</color>
+    <color name="textColorDark">@color/md_blue_grey_300</color>
+    <color name="textColorHint">@color/md_blue_grey_200</color>
+    <color name="textColorActionMenu">@color/md_white_1000</color>
+    <color name="textColorOnDark">@color/md_white_1000</color>
+    <color name="textColorRequied">@color/md_red_700</color>
+
+    <!-- app colors -->
+    <color name="appBackground">@color/md_white_1000</color>
+    <color name="colorLight">@color/md_blue_grey_300</color>
+</resources>

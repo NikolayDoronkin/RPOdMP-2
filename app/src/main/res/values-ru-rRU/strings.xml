@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cat Food</string>
+    <string name="sign_in_activity_label">Вход</string>
+    <string name="title_home">Главная</string>
+    <string name="title_search">Искать</string>
+    <string name="title_product">Продукт</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_favorites">Избранное</string>
+    <string name="title_info">Инфо</string>
+    <string name="title_browser">Браузер</string>
+    <string name="helper_pager_footer">Стр. %1$d of %2$d</string>
+    <string name="prices">Цены</string>
+    <string name="offers">предложений</string>
+    <string name="profile_name">ФИО: %1$s</string>
+    <string name="profile_email">Почта: %1$s</string>
+    <string name="sign_in_title">Войдите в свою учетную запись</string>
+    <string name="brand_everything">Все производители</string>
+
+    <string name="chip_everything">Все</string>
+    <string name="chip_dryfood">Сухой корм</string>
+    <string name="chip_canned">Консервы</string>
+    <string name="chip_preservs">Пресервы</string>
+    <string name="chip_tasty">Лакомство</string>
+    <string name="chip_favorites">Избранное</string>
+    <string name="btn_link">Ссылка</string>
+    <string name="switch_themes">Ночная тема</string>
+    <string name="btn_logout">Выйти из аккаунта</string>
+
+    <string name="dialog_select_brand">Выберите производителя</string>
+
+    <string name="search_hint">Искать</string>
+    <string name="no_results">Нет рузультатов 😓</string>
+    <string name="loading">Загрузка…</string>
+    <string name="error_app">Ошибка соединения!</string>
+    <string name="snackbar_retry">Повторить</string>
+</resources>

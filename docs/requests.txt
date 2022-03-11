@@ -1,0 +1,49 @@
+// общая страница для всех типов кошачих кормов
+https://catalog.onliner.by/sdapi/catalog.api/search/catfood?group=1
+https://catalog.api.onliner.by/search/catfood
+// page 2
+https://catalog.onliner.by/sdapi/catalog.api/search/catfood?group=1&page=2
+https://catalog.api.onliner.by/search/catfood?page=2
+
+
+// сухой корм - page1
+https://catalog.onliner.by/sdapi/catalog.api/search/catfood?typefood4cat[0]=dryfood&typefood4cat[operation]=union&group=1
+// page 2
+https://catalog.onliner.by/sdapi/catalog.api/search/catfood?typefood4cat[0]=dryfood&typefood4cat[operation]=union&group=1&page=2
+https://catalog.api.onliner.by/search/catfood?typefood4cat=dryfood&page=2
+
+// консервы - page1
+https://catalog.onliner.by/sdapi/catalog.api/search/catfood?typefood4cat[0]=canned&typefood4cat[operation]=union&group=1
+// page 2
+https://catalog.onliner.by/sdapi/catalog.api/search/catfood?typefood4cat[0]=canned&typefood4cat[operation]=union&group=1&page=2
+https://catalog.api.onliner.by/search/catfood?typefood4cat=canned&page=2
+
+// пресервы - page1
+https://catalog.onliner.by/sdapi/catalog.api/search/catfood?typefood4cat[0]=preservs&typefood4cat[operation]=union&group=1
+// page 2
+https://catalog.onliner.by/sdapi/catalog.api/search/catfood?typefood4cat[0]=preservs&typefood4cat[operation]=union&group=1&page=2
+https://catalog.api.onliner.by/search/catfood?typefood4cat=preservs&page=2
+
+//лакомства - page1
+https://catalog.onliner.by/sdapi/catalog.api/search/catfood?typefood4cat[0]=tasty&typefood4cat[operation]=union&group=1
+// page 2
+https://catalog.onliner.by/sdapi/catalog.api/search/catfood?typefood4cat[0]=tasty&typefood4cat[operation]=union&group=1&page=2
+https://catalog.api.onliner.by/search/catfood?typefood4cat=tasty&page=2
+
+
+// конкретный продукт
+https://catalog.api.onliner.by/products/<product-key>
+
+
+// поиск продукта
+https://catalog.onliner.by/sdapi/catalog.api/search/products?query=royal+canin
+https://catalog.api.onliner.by/search/products?query=royal+canin&page=2&limit=30
+
+// картинки
+https://content2.onliner.by/catalog/device/header/6f6c8c3bc0263ff0462232f643f8909a.png
+
+
+// параметры
+mfr - производитель
+typefood4cat - тип корма
+https://catalog.api.onliner.by/search/catfood?mfr=proplan&typefood4cat=dryfood

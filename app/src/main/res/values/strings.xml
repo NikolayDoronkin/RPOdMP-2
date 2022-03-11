@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name" translatable="false">Dog Food</string>
+    <string name="sign_in_activity_label">Sign In</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_product">Product</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_info">Info</string>
+    <string name="title_browser">Browser</string>
+    <string name="helper_pager_footer">Page %1$d of %2$d</string>
+    <string name="prices">Prices</string>
+    <string name="offers">offers</string>
+    <string name="profile_name">Name: %1$s</string>
+    <string name="profile_email">Email: %1$s</string>
+    <string name="sign_in_title">Login to your account</string>
+    <string name="brand_everything">All producers</string>
+
+    <string name="chip_everything">Everything</string>
+    <string name="chip_dryfood">Dry Food</string>
+    <string name="chip_canned">Canned</string>
+    <string name="chip_preservs">Preservs</string>
+    <string name="chip_tasty">Tasty</string>
+    <string name="chip_favorites">Favorites</string>
+    <string name="btn_link">Link</string>
+    <string name="switch_themes">Night Theme</string>
+    <string name="btn_logout">LogOut</string>
+
+    <string name="dialog_select_brand">Select Brand</string>
+
+    <string name="search_hint">Search</string>
+    <string name="no_results">Nothing to show</string>
+    <string name="loading">Loading…</string>
+    <string name="error_app">Connection Error!</string>
+    <string name="snackbar_retry">Retry</string>
+
+</resources>
